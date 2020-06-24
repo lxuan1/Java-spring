@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dave.dao.MenuDao">
+
+    <resultMap id="RoleAccountView" type="com.dave.bean.viewbean.RoleAccountView">
+        <result column="aID" property="aID"></result>
+        <result column="rID" property="rID"></result>
+        <result column="rActive" property="rActive"></result>
+        <result column="pID" property="permission.pID"></result>
+        <result column="uri" property="permission.uri"></result>
+        <result column="permissionName" property="permission.permissionName"></result>
+        <result column="active" property="permission.active"></result>
+        <result column="createDateTime" property="permission.createDateTime"></result>
+        <result column="createAid" property="permission.createAid"></result>
+        <result column="isMenu" property="permission.isMenu"></result>
+        <result column="menuParent" property="permission.menuParent"></result>
+        <result column="level" property="permission.level"></result>
+    </resultMap>
+
+    <!-- 通过账户ID获取账户ID -->
+    <select id="listRoleAccountView" resultMap="RoleAccountView">
+        SELECT a.aID,r.rID,r.active rActive, permission.*,rp.actionC,rp.actionR,rp.actionU,rp.actionD,rp.active rpActive FROM dim_account  a
+        LEFT JOIN rel_account_role ar ON a.aID=ar.aID
+        LEFT JOIN dim_role r ON ar.rID=r.rID
+        LEFT JOIN rel_role_permission rp ON r.rID=rp.rID
+        LEFT JOIN dim_permission permission ON rp.pID=permission.pID
+        WHERE permission.active=1 AND a.active=1 AND rp.active=1
+        <if test="aID!=null">
+            AND a.aID=#{aID}
+        </if>
+    </select>
+
+    <!-- 获取菜单 -->
+    <select id="listMenu"  resultMap="RoleAccountView">
+        SELECT a.aID,r.rID,r.active rActive, permission.* FROM dim_account  a
+        LEFT JOIN rel_account_role ar ON a.aID=ar.aID
+        LEFT JOIN dim_role r ON ar.rID=r.rID
+        LEFT JOIN rel_role_permission rp ON r.rID=rp.rID
+        LEFT JOIN dim_permission permission ON rp.pID=permission.pID
+        WHERE permission.active=1 AND a.active=1 AND permission.isMenu='Y'
+        <if test="aID!=null">
+            AND a.aID=#{aID}
+        </if>
+        <choose>
+            <when test="level!=0">
+                <if test="pID!=null">
+                    AND permission.menuParent=#{pID} AND permission.level=#{level}
+                </if>
+            </when>
+            <otherwise>
+                <if test="pID!=null">
+                    AND permission.pID=#{pID}
+                </if>
+                <if test="level!=null">
+                    AND permission.`level`=#{level}
+                </if>
+            </otherwise>
+        </choose>
+    </select>
+</mapper>

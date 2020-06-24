@@ -1,0 +1,57 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="springboot_powervlidate:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/springboot_powervlidate_jar</output-path>
+    <root id="archive" name="springboot_powervlidate.jar">
+      <element id="module-output" name="springboot_powervlidate" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/springframework/boot/spring-boot-starter-thymeleaf/2.3.0.RELEASE/spring-boot-starter-thymeleaf-2.3.0.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/io/netty/netty-all/4.1.0.Final/netty-all-4.1.0.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/springframework/spring-aop/5.2.6.RELEASE/spring-aop-5.2.6.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.0/jackson-datatype-jsr310-2.11.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/springframework/spring-context/5.2.6.RELEASE/spring-context-5.2.6.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.1.2/mybatis-spring-boot-autoconfigure-2.1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/springframework/spring-jdbc/5.2.6.RELEASE/spring-jdbc-5.2.6.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/springframework/boot/spring-boot-starter-web/2.3.0.RELEASE/spring-boot-starter-web-2.3.0.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/springframework/boot/spring-boot-starter-logging/2.3.0.RELEASE/spring-boot-starter-logging-2.3.0.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/springframework/boot/spring-boot-starter/2.3.0.RELEASE/spring-boot-starter-2.3.0.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/springframework/boot/spring-boot/2.3.0.RELEASE/spring-boot-2.3.0.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/apache/logging/log4j/log4j-api/2.13.2/log4j-api-2.13.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/springframework/spring-expression/5.2.6.RELEASE/spring-expression-5.2.6.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/mysql/mysql-connector-java/8.0.20/mysql-connector-java-8.0.20.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.35/tomcat-embed-websocket-9.0.35.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.0.RELEASE/spring-boot-starter-tomcat-2.3.0.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/springframework/spring-webmvc/5.2.6.RELEASE/spring-webmvc-5.2.6.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/springframework/boot/spring-boot-starter-jdbc/2.3.0.RELEASE/spring-boot-starter-jdbc-2.3.0.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/springframework/spring-core/5.2.6.RELEASE/spring-core-5.2.6.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/thymeleaf/extras/thymeleaf-extras-java8time/3.0.4.RELEASE/thymeleaf-extras-java8time-3.0.4.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.0/jackson-module-parameter-names-2.11.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/springframework/boot/spring-boot-starter-json/2.3.0.RELEASE/spring-boot-starter-json-2.3.0.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/mybatis/spring/boot/mybatis-spring-boot-starter/2.1.2/mybatis-spring-boot-starter-2.1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.0/jackson-datatype-jdk8-2.11.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/springframework/spring-tx/5.2.6.RELEASE/spring-tx-5.2.6.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/mybatis/mybatis-spring/2.0.4/mybatis-spring-2.0.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/attoparser/attoparser/2.0.5.RELEASE/attoparser-2.0.5.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.2/log4j-to-slf4j-2.13.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/aspectj/aspectjweaver/1.9.3/aspectjweaver-1.9.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/thymeleaf/thymeleaf/3.0.11.RELEASE/thymeleaf-3.0.11.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/mybatis/mybatis/3.5.4/mybatis-3.5.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/springframework/spring-jcl/5.2.6.RELEASE/spring-jcl-5.2.6.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Jar与开发/maven-repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.35/tomcat-embed-core-9.0.35.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

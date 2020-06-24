@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dave.dao.AccountDao">
+
+    <resultMap id="account" type="com.dave.bean.Account">
+        <result property="aID" column="aID"></result>
+        <result property="loginName" column="loginName"></result>
+        <result property="passWord" column="passWord"></result>
+        <result property="eMail" column="eMail"></result>
+        <result property="realName" column="realName"></result>
+        <result property="active" column="active"></result>
+        <result property="createDateTime" column="createDateTime"></result>
+        <result property="createAid" column="createAid"></result>
+    </resultMap>
+
+    <!-- 通过账户ID获取账户信息 -->
+    <select id="getAccountByAID" parameterType="java.lang.Integer" resultType="com.dave.bean.Account">
+        SELECT * FROM dim_account where aID=#{aID};
+    </select>
+    <!-- 通过用户名和密码获取账户信息 -->
+    <select id="getAccountByLAndP"  resultType="com.dave.bean.Account">
+        SELECT * FROM dim_account where loginName=#{loginName} AND passWord=#{passWord};
+    </select>
+
+
+</mapper>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>公牛进销存-用户登录</title>
+</head>
+<script type="text/javascript" th:src="@{/js/jquery.min.js}" ></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+<style type="text/css">
+
+</style>
+<body>
+ <div class="container-fluid">
+
+         <div  class="container">
+             <div class="form-group">
+                 <label for="loginName">loginName</label>
+                 <input type="text" class="form-control" id="loginName" placeholder="loginName">
+             </div>
+             <div class="form-group">
+                 <label for="passWord">passWord</label>
+                 <input type="passWord" class="form-control" id="passWord" placeholder="passWord">
+             </div>
+
+             <button type="button" class="btn btn-default" id="submit">提  交</button>
+         </div>
+ </div>
+</body>
+<script type="text/javascript">
+    $("#submit").click(function (){
+        $.post("../account/validateAccount",{"loginName":"dave","passWord":"123"},function (data) {
+            if (data.code===200)
+                window.location.href="";
+            else
+                alert(data.msg);
+        });
+    });
+</script>
+</html>
